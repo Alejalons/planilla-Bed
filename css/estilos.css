@@ -1,0 +1,29 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+:root {
+  --primary: #111B54;
+  --light: #ffffff;
+  --grey: #efefef; }
+
+body {
+  font-family: "Cabin", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  overflow: hidden;
+  color: var(--primary); }
+
+#content {
+  overflow-y: auto;
+  height: 100vh;
+  padding-bottom: 5rem; }
+
+.sidebar-container {
+  height: 100vh; }
+  .sidebar-container .item:hover {
+    text-decoration: none;
+    background: #f18813; }
+
+/*# sourceMappingURL=estilos.css.map */

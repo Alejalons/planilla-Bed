@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" >
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css" >
+
+</head>
+<body>
+
+    <div class="d-flex" id="content-wrapper" >
+
+        <!-- Sidebar -->
+        <div id="sidebar-container" class="col-2 sidebar-container bg-secondary d-none d-lg-block d-md-none">
+
+            <div class="dropdown lign-selft-center d-none d-lg-block d-md-none  mt-2">
+                <a class="btn btn-secondary  dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    abcdefg@gmail.com
+                </a>                
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="#">Cerrar Sesión</a>
+                </div>
+            </div>
+
+            <div class="align-selft-center mt-3">
+                <a href="#" class="item d-md-block text-light p-3 border-0 lign-selft-center"><i class="fas fa-shopping-bag"></i>  
+                         Registrar Usuarios</a>
+            </div>
+            <div class="align-selft-center mt-3">
+                <a href="#" class="item d-md-block text-light p-3 border-0 lign-selft-center"><i class="fas fa-shopping-bag"></i>  
+                         Venta</a>
+            </div>
+            <div class="align-selft-center mt-3">
+                <a href="#" class="item d-md-block text-light p-3 border-0 lign-selft-center"><i class="fas fa-shopping-bag"></i>  
+                         Lorem ipsum</a>
+            </div>
+            <div class="align-selft-center mt-3">
+                <a href="#" class="item d-md-block text-light p-3 border-0 lign-selft-center"><i class="fas fa-shopping-bag"></i>  
+                        Lorem ipsum </a>
+            </div>
+
+        </div>
+
+
+        <div class="w-100">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+                <!-- .container nos permite centrar el contenido de nuestro menu, esta clase es opcional y podemos encerrar el menu <nav> o incluir el contenedor dentro del <nav> -->
+                <div class="container">                    
+                    <!-- Nos permite usar el componente collapse para dispositivos moviles -->
+                    <button class="navbar-toggler" type="button" 
+                        data-toggle="collapse" 
+                        data-target="#navbar" 
+                        aria-controls="navbar" 
+                        aria-expanded="false" 
+                        aria-label="Menu de Navegacion">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <ul class="navbar-nav mr-auto">
+                        <div class="logo lign-selft-center mx-5 mt-2">
+                            <h4 class="text-black font-weight-bold  ">BestBed</h4>
+                        </div>
+                    </ul>
+                    <div class="collapse navbar-collapse" id="navbar">
+                       
+                        <div class="align-selft-center mt-3 d-block d-lg-none d-md-block">
+                            <a href="#" class="item d-md-block text-black p-3 border-0 lign-selft-center"><i class="fas fa-shopping-bag"></i>  
+                                     Registrar Usuarios</a>
+                        </div>
+                        <div class="align-selft-center mt-3 d-block d-lg-none d-md-block">
+                            <a href="#" class="item d-md-block text-black p-3 border-0 lign-selft-center"><i class="fas fa-shopping-bag"></i>  
+                                     Venta</a>
+                        </div>
+                        <div class="align-selft-center mt-3 d-block d-lg-none d-md-block">
+                            <a href="#" class="item d-md-block text-black p-3 border-0 lign-selft-center"><i class="fas fa-shopping-bag"></i>  
+                                     Lorem ipsum</a>
+                        </div>
+                        <div class="align-selft-center mt-3 d-block d-lg-none d-md-block">
+                            <a href="#" class="item d-md-block text-black p-3 border-0 lign-selft-center"><i class="fas fa-shopping-bag"></i>  
+                                    Lorem ipsum </a>
+                        </div>
+                        <!-- <form action="" class="form-inline my-2 my-lg-0">
+                            <input type="text" class="form-control mr-sm-2" placeholder="Buscar" arial-label="Buscar">
+                            <button class="btn btn-primary my-s my-sm-0" type="submit">Buscar</button>
+                        </form> -->
+                    </div>
+                </div>
+            </nav>
+
+
+            <!-- page Content -->
+
+             <!-- Page Content -->
+        <div id="content" class="bg-grey w-100">
+
+            <section class="bg-light py-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-9 col-md-8">
+                          <h1 class="font-weight-bold mb-0">Bienvenido [NOMBRE]</h1>
+                          <p class="lead text-muted">Revisa la última información</p>
+                        </div>
+                        <div class="col-lg-3 col-md-4 d-flex">
+                          <button class="btn btn-primary w-100 align-self-center">Descargar reporte</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- <section class="bg-mix py-3">
+              <div class="container">
+                  <div class="card rounded-0">
+                      <div class="card-body">
+                          <div class="row">
+                              <div class="col-lg-3 col-md-6 d-flex stat my-3">
+                                  <div class="mx-auto">
+                                      <h6 class="text-muted">Ingresos mensuales</h6>
+                                      <h3 class="font-weight-bold">$50000</h3>
+                                      <h6 class="text-success"><i class="icon ion-md-arrow-dropup-circle"></i> 50.50%</h6>
+                                  </div>
+                              </div>
+                              <div class="col-lg-3 col-md-6 d-flex stat my-3">
+                                  <div class="mx-auto">
+                                      <h6 class="text-muted">Productos activos</h6>
+                                      <h3 class="font-weight-bold">100</h3>
+                                      <h6 class="text-success"><i class="icon ion-md-arrow-dropup-circle"></i> 25.50%</h6>
+                                  </div>
+                              </div>
+                              <div class="col-lg-3 col-md-6 d-flex stat my-3">
+                                  <div class="mx-auto">
+                                      <h6 class="text-muted">No. de usuarios</h6>
+                                      <h3 class="font-weight-bold">2500</h3>
+                                      <h6 class="text-success"><i class="icon ion-md-arrow-dropup-circle"></i> 75.50%</h6>
+                                  </div>
+                              </div>
+                              <div class="col-lg-3 col-md-6 d-flex my-3">
+                                  <div class="mx-auto">
+                                      <h6 class="text-muted">Usuarios nuevos</h6>
+                                      <h3 class="font-weight-bold">500</h3>
+                                      <h6 class="text-success"><i class="icon ion-md-arrow-dropup-circle"></i> 15.50%</h6>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </section> -->
+
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 my-3">
+                            <div class="card rounded-0">
+                                <div class="card-header bg-grey">
+                                  <h6 class="font-weight-bold mb-0">Tabla de Ventas Generada por el Usuario</h6>
+                                </div>
+                                <div class="card-body">
+                                  <canvas id="myChart" width="300" height="150"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 my-3">
+                          <div class="card rounded-0">
+                              <div class="card-header bg-light">
+                                  <h6 class="font-weight-bold mb-0">Ventas recientes</h6>
+                              </div>
+                              <div class="card-body pt-2">
+                                  <div class="d-flex border-bottom py-2">
+                                      <div class="d-flex mr-3">
+                                        <h2 class="align-self-center mb-0"><i class="icon ion-md-pricetag"></i></h2>
+                                      </div>
+                                      <div class="align-self-center">
+                                        <h6 class="d-inline-block mb-0">$250</h6><span class="badge badge-success ml-2">10% descuento</span>
+                                        <small class="d-block text-muted">Curso diseño web</small>
+                                      </div>
+                                  </div>
+                                  <div class="d-flex border-bottom py-2">
+                                      <div class="d-flex mr-3">
+                                        <h2 class="align-self-center mb-0"><i class="icon ion-md-pricetag"></i></h2>
+                                      </div>
+                                      <div class="align-self-center">
+                                        <h6 class="d-inline-block mb-0">$250</h6><span class="badge badge-success ml-2">10% descuento</span>
+                                        <small class="d-block text-muted">Curso diseño web</small>
+                                      </div>
+                                  </div>
+                                  <div class="d-flex border-bottom py-2">
+                                      <div class="d-flex mr-3">
+                                        <h2 class="align-self-center mb-0"><i class="icon ion-md-pricetag"></i></h2>
+                                      </div>
+                                      <div class="align-self-center">
+                                        <h6 class="d-inline-block mb-0">$250</h6><span class="badge badge-success ml-2">10% descuento</span>
+                                        <small class="d-block text-muted">Curso diseño web</small>
+                                      </div>
+                                  </div>
+                                  <div class="d-flex border-bottom py-2">
+                                      <div class="d-flex mr-3">
+                                        <h2 class="align-self-center mb-0"><i class="icon ion-md-pricetag"></i></h2>
+                                      </div>
+                                      <div class="align-self-center">
+                                        <h6 class="d-inline-block mb-0">$250</h6><span class="badge badge-success ml-2">10% descuento</span>
+                                        <small class="d-block text-muted">Curso diseño web</small>
+                                      </div>
+                                  </div>
+                                  <div class="d-flex border-bottom py-2 mb-3">
+                                      <div class="d-flex mr-3">
+                                        <h2 class="align-self-center mb-0"><i class="icon ion-md-pricetag"></i></h2>
+                                      </div>
+                                      <div class="align-self-center">
+                                        <h6 class="d-inline-block mb-0">$250</h6><span class="badge badge-success ml-2">10% descuento</span>
+                                        <small class="d-block text-muted">Curso diseño web</small>
+                                      </div>
+                                  </div>
+                                  <button class="btn btn-primary w-100">Ver todas</button>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+      </div>
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/f8a4c1883d.js" crossorigin="anonymous"></script>    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" ></script>
+    <script type="text/javascript" src="js/vendor/jquery.tabslet.min.js"></script>
+    <script type="text/javascript" src="js/vendor/rainbow-custom.min.js"></script>
+    <script type="text/javascript" src="js/vendor/jquery.anchor.js"></script>
+    <script src="js/initializers.js"></script>
+</body>
+</html>
