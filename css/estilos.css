@@ -6,7 +6,8 @@
 :root {
   --primary: #111B54;
   --light: #ffffff;
-  --grey: #efefef; }
+  --grey: #efefef;
+  --info: #31394c; }
 
 body {
   font-family: "Cabin", sans-serif;
@@ -20,10 +21,35 @@ body {
   height: 100vh;
   padding-bottom: 5rem; }
 
+.cerrarSesion:hover {
+  background: #b11414;
+  color: #ffffff; }
+
 .sidebar-container {
-  height: 100vh; }
-  .sidebar-container .item:hover {
+  height: 100vh;
+  background-color: #32323a;
+  padding-right: 0px;
+  padding-left: 0px; }
+  .sidebar-container img {
+    width: 200px;
+    height: 50px; }
+  .sidebar-container a:hover {
+    text-decoration: none; }
+  .sidebar-container .option:hover {
     text-decoration: none;
     background: #f18813; }
+
+.welcome {
+  color: #f18813; }
+
+.home {
+  height: 100vh; }
+
+.registro {
+  height: 100vh; }
+
+#logo-bestbeds {
+  width: 200px;
+  height: 50px; }
 
 /*# sourceMappingURL=estilos.css.map */
