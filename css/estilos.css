@@ -42,14 +42,11 @@ body {
 .welcome {
   color: #f18813; }
 
-.home {
-  height: 100vh; }
-
-.registro {
-  height: 100vh; }
-
 #logo-bestbeds {
   width: 200px;
   height: 50px; }
+
+#mostrar {
+  cursor: pointer; }
 
 /*# sourceMappingURL=estilos.css.map */
